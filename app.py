@@ -1,7 +1,6 @@
 
 
 from flask import Flask, request, render_template
-from scriptFin import reccomndation
 from pymongo import MongoClient
 from pandas import DataFrame
 from sklearn.ensemble import RandomForestClassifier
